@@ -4,6 +4,6 @@
 
 2. Run and install the downloaded MCR_R2013b_win64_installer.exe
 
-3. Download [zentracker.exe](https://github.com/zolts/zentracker/blob/master/bin/2.14/win64/zentracker.exe) from GitHub
+3. Download [zentracker.exe](https://github.com/zolts/zentracker/raw/master/bin/2.14/win64/zentracker.exe) from GitHub
 
 4. You can now run zentracker.exe
