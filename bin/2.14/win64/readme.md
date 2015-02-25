@@ -1,4 +1,4 @@
-# Instructions for using the compiled version on 64-bit Windows machines
+### Instructions for using the compiled version on 64-bit Windows machines
 
 1. Download the [64-bit Windows version of the MCR for R2013b](http://www.mathworks.com/products/compiler/mcr/index.html)
 
