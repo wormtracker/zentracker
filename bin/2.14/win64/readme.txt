@@ -6,4 +6,6 @@ Instructions for using the compiled version on 64-bit Windows machines:
 
 2. Run and install the downloaded MCR_R2013b_win64_installer.exe
 
-3. You can now start zentracker.exe
+3. Download zentracker.exe from above
+
+4. You can now run zentracker.exe
