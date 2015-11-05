@@ -7,7 +7,7 @@ For 64-bit Windows, see there is a [compiled version available](https://github.c
 
 ### Source code
 
-The [source code is available](https://github.com/wormtracker/zentracker/tree/master/source), which can be used to run the program within MATLAB under various platforms, including Windows and Mac OS X.
+The latest [source code is available](https://github.com/wormtracker/zentracker/tree/master/source), which can be used to run the program within MATLAB under various platforms, including Windows and Mac OS X.
 
 ### Contact
 
