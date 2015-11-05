@@ -1,6 +1,6 @@
 function zentracker
 
-    version = '2.14';
+    version = '2.15';
     
     %"CONSTANTS" used for specifying which parameter we're looking at
     CONST_DISPLAY_SPEED = 1;
@@ -2468,7 +2468,16 @@ function zentracker
                     lastbase = CONST_TARGET_STARTINGAREA;
                 end
             end
-        end        
+            %relabelling target area disregarding invalidity (so as to be able to estimate the number of worms based on area)
+            %should come after the calculation of targetreached because that needs to consider validity
+            for j=1:objects(i).duration
+                if endingarea(round(objects(i).y(j)), round(objects(i).x(j)))
+                    objects(i).target(j) = CONST_TARGET_ENDINGAREA;
+                elseif startingarea(round(objects(i).y(j)), round(objects(i).x(j)))
+                    objects(i).target(j) = CONST_TARGET_STARTINGAREA;
+                end
+            end
+        end
     end
     
     function recalculatemeanperimeter
